@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 function Cards(props) {
   return (
     <>
-      <Card style={{ width: "18rem" }} className=' mt-4 container-fluid'>
+      <Card style={{ width: "17rem" }} className=' mt-4 container-fluid'>
         <Card.Img variant="" src={props.imgData} />
         
         <div className='cars_body'>
@@ -24,3 +24,4 @@ function Cards(props) {
 }
 
 export default Cards
+// hello imadad ali how are you
